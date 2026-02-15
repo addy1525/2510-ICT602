@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "carrymarkapp",
+          "appId": "1:329213937540:android:8b9789b510d850fcd53fd1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "carrymarkapp",
+          "configurations": {
+            "android": "1:329213937540:android:8b9789b510d850fcd53fd1",
+            "ios": "1:329213937540:ios:11e17555eb20d05ad53fd1",
+            "macos": "1:329213937540:ios:11e17555eb20d05ad53fd1",
+            "web": "1:329213937540:web:e7741c4a19aa9bb4d53fd1",
+            "windows": "1:329213937540:web:5114289ab3275291d53fd1"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-southeast1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
